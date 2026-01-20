@@ -1,7 +1,9 @@
 *{
-    background-color: #1A0B2E;
+    /* background-color: #1A0B2E; */
     margin: 0;
     padding: 0;
+    
+    
 }
 
 
@@ -12,8 +14,8 @@
 }
 
 .nav-container{
-    width: 1600px;
-    /* max-width: 1600px; */
+    /* width: 100%; */
+    
    
     display: flex;
     justify-content: space-between;
@@ -62,7 +64,7 @@
     padding: 12.5px 40px 12.5px 16px;
     /* background-color: purple; */
     margin-top: 24px;
-    margin-right: 200px;
+    /* margin-right: 200px; */
     margin-bottom: 24px;
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
@@ -75,13 +77,94 @@ button i{
     background-image: url(./image/hero-bg.png);
     
     
-    width: 1600px;
+    
     
     height: 760px;
     align-items: center;
+    /* padding-top: 101px; */
+    text-align: center;
     
     
 }
+
+.hero-image .micro{
+    background-image: url(./image/hero-circle.png);
+    align-content: center;
+    
+    width: 116px;
+    height: 175px;
+    /* box-sizing: border-box; */
+    /* border: 1px solid red;  */
+    /* border-radius: 500px; */
+    padding: 77.33px 116.67px 97.67px 116.67px;
+    margin: 90px 625px 40px 625px;
+    /* background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1))); */
+    
+    
+}
+
+.hero-text{
+    display: grid;
+    text-align: center;
+
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.hero-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+.badge {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            background-color: #00f097;
+            color: black;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold; */
+            box-shadow: 0 0 10px rgba(0, 240, 151, 0.6);
+}
+
+ .hero-text .btn{ 
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    align-content: center;
+    margin-top: 24px;
+    border-radius: 10000px;
+    padding: 12.5px 40px 12.5px 16px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+}
+
+.btn img{
+    justify-content: center;
+}
+
+.hero-text .message{
+    font-size: 16px;
+    font-weight: 600;
+    color: #00FF88;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    border-radius: 10000px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid var(--#00FF88, rgba(0, 255, 136, 1));
+    border: 1px solid #00FF88;
+    background: none;
+}
+         
 
 
 
